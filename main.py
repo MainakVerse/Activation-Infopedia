@@ -17,7 +17,7 @@ st.sidebar.image("af.png")
 
 streamlit_marquee(**{
     # the marquee container background color
-    'background': "transparent",
+    'background': "black",
     # the marquee text size
     'fontSize': '20px',
     # the marquee text color
