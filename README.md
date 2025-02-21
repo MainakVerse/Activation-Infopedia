@@ -1,4 +1,4 @@
-# Activation-Infopedia
+# Activation-Wiki
 
 ![image](https://github.com/MainakRepositor/Activation-Infopedia/assets/64016811/150da17e-c15f-4a96-8a58-ce950932ca6a)
 
