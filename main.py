@@ -32,6 +32,30 @@ streamlit_marquee(**{
     'animationDuration': '50s',
 })
 
+st.markdown(
+    """
+    <style>
+        /* Change tab background color */
+        div[data-baseweb="tab-list"] {
+            background-color: #4CAF50 !important; /* Change this to your preferred color */
+        }
+        
+        /* Change tab text color */
+        div[data-baseweb="tab"] {
+            color: white !important; /* Text color */
+            font-weight: bold !important;
+        }
+        
+        /* Active tab customization */
+        div[data-baseweb="tab"][aria-selected="true"] {
+            background-color: #388E3C !important; /* Active tab background */
+            color: #FFFFFF !important; /* Active tab text color */
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 from tabs import home, linear, binary_step, elu, relu, prelu, leakyrelu, gelu, selu, sigmoid, tanh, softmax, swish, appendix
 
