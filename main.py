@@ -37,7 +37,7 @@ st.markdown(
     <style>
         /* Change tab background color */
         div[data-baseweb="tab-list"] {
-            background-color: #4CAF50 !important; /* Change this to your preferred color */
+            background-color: #000000 !important; /* Change this to your preferred color */
         }
         
         /* Change tab text color */
